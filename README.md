@@ -13,7 +13,7 @@ Get the IP address for the App Accelerator API: kubectl get service -n accelerat
 Publish Accelerators:
 ```
 tanzu plugin install --local <path-to-tanzu-cli> all
-tanzu acc create in-db-analytics-acc --git-repository https://github.com/agapebondservant/datahub-accelerator.git --git-branch main
+tanzu acc create in-db-analytics-acc --git-repository https://github.com/agapebondservant/in-database-analytics-accelerator.git --git-branch main
 ```
 
 ### (TODO: Pipeline documentation)
